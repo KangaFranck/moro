@@ -57,7 +57,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observer les éléments à animer
 document.addEventListener('DOMContentLoaded', () => {
-    const animateElements = document.querySelectorAll('.timeline-item, .skill-item, .gallery-item, .about-content > *');
+    const animateElements = document.querySelectorAll('.timeline-item, .skill-item, .gallery-item, .competence-card, .about-content > *');
     
     animateElements.forEach(el => {
         el.style.opacity = '0';
