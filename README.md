@@ -21,9 +21,10 @@ Je recherche activement un **CDI ou un premier emploi** en tant que **Chargé d'
 
 ## 📚 Formation
 
-- **Master 2 Management, Marketing et Commercial** (En cours)
-- **Master 2 Sciences Sociales - Parcours Anthropologie** (Diplômé)
-- **Licence en AES** (Administration Économique et Sociale) - En cours de finalisation
+- **Master 2 Management, Marketing et Commercial** - École de commerce Paris Com'Sup (Diplômé)
+- **Master 2 Sciences Sociales - Parcours Anthropologie** - Université Paris Nanterre & Paris 8 (Diplômé)
+- **Licence Sciences Humaines et Sociales - Parcours Anthropologie** - Université Paris Nanterre (Diplômé)
+- **Licence Administration Économique et Sociale (AES)** - Université Paris 8 (En cours)
 
 ## 🛠️ Compétences Clés
 
