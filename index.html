@@ -19,32 +19,38 @@
                 <span></span>
             </button>
             <ul class="nav-menu">
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">Profil</a></li>
-                <li><a href="#vision">Vision</a></li>
-                <li><a href="#formations">Formations</a></li>
-                <li><a href="#experience">Expérience</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#galerie">Galerie</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#accueil" data-i18n="nav.home">Accueil</a></li>
+                <li><a href="#apropos" data-i18n="nav.profile">Profil</a></li>
+                <li><a href="#vision" data-i18n="nav.vision">Vision</a></li>
+                <li><a href="#formations" data-i18n="nav.formations">Formations</a></li>
+                <li><a href="#experience" data-i18n="nav.experience">Expérience</a></li>
+                <li><a href="#competences" data-i18n="nav.skills">Compétences</a></li>
+                <li><a href="#galerie" data-i18n="nav.gallery">Galerie</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switcher">
+                <label class="sr-only" for="lang-select">Langue</label>
+                <select id="lang-select" class="lang-select" aria-label="Langue">
+                    <option value="fr">FR</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
         </div>
     </nav>
 
     <header id="accueil" class="hero">
         <div class="container hero-grid">
             <div class="hero-text">
-                
                 <h1>Sinayoko Moro</h1>
-                <p class="subtitle">Manager commercial & marketing | Chargé d’étude</p>
-                <p class="hero-lead">Profil pluridisciplinaire : sciences sociales, management, marketing et performance terrain.</p>
+                <p class="subtitle" data-i18n="hero.subtitle">Manager commercial & marketing | Chargé d’étude</p>
+                <p class="hero-lead" data-i18n="hero.lead">Profil pluridisciplinaire : sciences sociales, management, marketing et performance terrain.</p>
                 <div class="hero-actions">
-                    <a class="btn btn-primary" href="#apropos">Découvrir</a>
-                    <a class="btn btn-secondary" href="#contact">Me contacter</a>
+                    <a class="btn btn-primary" href="#apropos" data-i18n="hero.cta.discover">Découvrir</a>
+                    <a class="btn btn-secondary" href="#contact" data-i18n="hero.cta.contact">Me contacter</a>
                 </div>
                 <div class="hero-badges">
-                    <span>CDI à partir d’octobre 2026</span>
-                    <span>Mobilité appréciée</span>
+                    <span data-i18n="hero.badge.cdi">CDI à partir d’octobre 2026</span>
+                    <span data-i18n="hero.badge.mobility">Mobilité appréciée</span>
                 </div>
             </div>
             <div class="hero-media">
@@ -52,27 +58,27 @@
                     <img src="image/id1.jpeg" alt="Portrait professionnel de Sinayoko Moro">
                 </div>
                 <div class="hero-card">
-                    <h3>Positionnement</h3>
+                    <h3 data-i18n="hero.positioning.title">Positionnement</h3>
                     <ul>
-                        <li>Management commercial</li>
-                        <li>Marketing opérationnel</li>
-                        <li>Développement d’activité</li>
+                        <li data-i18n="hero.positioning.li1">Management commercial</li>
+                        <li data-i18n="hero.positioning.li2">Marketing opérationnel</li>
+                        <li data-i18n="hero.positioning.li3">Développement d’activité</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="container hero-highlights">
             <div class="highlight-card">
-                <h4>Double compétence</h4>
-                <p>Analyse + performance opérationnelle sur le terrain.</p>
+                <h4 data-i18n="hero.highlight1.title">Double compétence</h4>
+                <p data-i18n="hero.highlight1.text">Analyse + performance opérationnelle sur le terrain.</p>
             </div>
             <div class="highlight-card">
-                <h4>Orientation résultats</h4>
-                <p>Pilotage par KPI, tableaux de bord et actions concrètes.</p>
+                <h4 data-i18n="hero.highlight2.title">Orientation résultats</h4>
+                <p data-i18n="hero.highlight2.text">Pilotage par KPI, tableaux de bord et actions concrètes.</p>
             </div>
             <div class="highlight-card">
-                <h4>Vision terrain</h4>
-                <p>Management, organisation, coordination et engagement client.</p>
+                <h4 data-i18n="hero.highlight3.title">Vision terrain</h4>
+                <p data-i18n="hero.highlight3.text">Management, organisation, coordination et engagement client.</p>
             </div>
         </div>
     </header>
@@ -80,17 +86,17 @@
     <section id="apropos" class="section">
         <div class="container section-grid">
             <div>
-                <h2>Qui suis-je ?</h2>
-                <p>Je suis Sinayoko Moro, diplômé d’un Master 2 Management Marketing et Commercial que j’ai réalisé en alternance. Mon parcours est volontairement pluridisciplinaire : il croise les sciences sociales, le management, le marketing et une expérience terrain solide dans la grande distribution.</p>
-                <p>Cette trajectoire m’a permis de développer une double compétence : comprendre les comportements humains, sociaux et consommateurs, et piloter la performance commerciale et opérationnelle sur le terrain.</p>
+                <h2 data-i18n="about.title">Qui suis-je ?</h2>
+                <p data-i18n="about.p1">Je suis Sinayoko Moro, diplômé d’un Master 2 Management Marketing et Commercial que j’ai réalisé en alternance. Mon parcours est volontairement pluridisciplinaire : il croise les sciences sociales, le management, le marketing et une expérience terrain solide dans la grande distribution.</p>
+                <p data-i18n="about.p2">Cette trajectoire m’a permis de développer une double compétence : comprendre les comportements humains, sociaux et consommateurs, et piloter la performance commerciale et opérationnelle sur le terrain.</p>
                 <div class="highlight">
-                    <p>Je souhaite intégrer une entreprise en contrat à durée indéterminée dès octobre 2026, sur des fonctions orientées vers le management commercial, le marketing opérationnel ou le développement d’activité.</p>
+                    <p data-i18n="about.highlight">Je souhaite intégrer une entreprise en contrat à durée indéterminée dès octobre 2026, sur des fonctions orientées vers le management commercial, le marketing opérationnel ou le développement d’activité.</p>
                 </div>
             </div>
             <div class="profile-card">
                 <img src="image/id1.jpeg" alt="Portrait Sinayoko Moro">
                 <div class="profile-details">
-                    <p>Profil pluridisciplinaire, capable d’assumer des responsabilités managériales, juridiques, de recherche et marketing stratégique & opérationnel.</p>
+                    <p data-i18n="about.profile">Profil pluridisciplinaire, capable d’assumer des responsabilités managériales, juridiques, de recherche et marketing stratégique & opérationnel.</p>
                 </div>
             </div>
         </div>
@@ -98,20 +104,20 @@
 
     <section id="vision" class="section alt">
         <div class="container">
-            <h2>Ma vision professionnelle</h2>
-            <p>Je conçois le management et le commerce comme un équilibre entre analyse, humain et performance. Mes études en anthropologie m’ont appris à observer, analyser et comprendre les logiques sociales, tandis que mes expériences en entreprise m’ont formé à l’action, la prise de décision et la responsabilité opérationnelle.</p>
+            <h2 data-i18n="vision.title">Ma vision professionnelle</h2>
+            <p data-i18n="vision.p1">Je conçois le management et le commerce comme un équilibre entre analyse, humain et performance. Mes études en anthropologie m’ont appris à observer, analyser et comprendre les logiques sociales, tandis que mes expériences en entreprise m’ont formé à l’action, la prise de décision et la responsabilité opérationnelle.</p>
             <div class="card-grid">
                 <div class="info-card">
-                    <h3>Analyse</h3>
-                    <p>Comprendre un environnement (marché, équipe, clients) pour décider avec recul.</p>
+                    <h3 data-i18n="vision.card1.title">Analyse</h3>
+                    <p data-i18n="vision.card1.text">Comprendre un environnement (marché, équipe, clients) pour décider avec recul.</p>
                 </div>
                 <div class="info-card">
-                    <h3>Stratégie</h3>
-                    <p>Structurer une stratégie ou un plan d’action aligné sur les objectifs.</p>
+                    <h3 data-i18n="vision.card2.title">Stratégie</h3>
+                    <p data-i18n="vision.card2.text">Structurer une stratégie ou un plan d’action aligné sur les objectifs.</p>
                 </div>
                 <div class="info-card">
-                    <h3>Action</h3>
-                    <p>Déployer concrètement sur le terrain, piloter et ajuster.</p>
+                    <h3 data-i18n="vision.card3.title">Action</h3>
+                    <p data-i18n="vision.card3.text">Déployer concrètement sur le terrain, piloter et ajuster.</p>
                 </div>
             </div>
         </div>
@@ -119,50 +125,50 @@
 
     <section id="formations" class="section">
         <div class="container">
-            <h2>Formations & Apports</h2>
+            <h2 data-i18n="edu.title">Formations & Apports</h2>
             <div class="content-block">
-                <h3>Management, marketing et stratégie commerciale</h3>
-                <p>Vision globale de l’entreprise orientée résultats.</p>
+                <h3 data-i18n="edu.block1.title">Management, marketing et stratégie commerciale</h3>
+                <p data-i18n="edu.block1.p1">Vision globale de l’entreprise orientée résultats.</p>
                 <ul class="check-list">
-                    <li>Stratégie marketing et commerciale : analyse de marché, segmentation, ciblage, positionnement</li>
-                    <li>Pilotage de la performance : suivi des indicateurs commerciaux, tableaux de bord, KPI</li>
-                    <li>Gestion de projet : planification, coordination, respect des délais et des objectifs</li>
-                    <li>Relation client et négociation : compréhension des besoins, adaptation de l’offre, fidélisation</li>
-                    <li>Communication marketing : conception de messages, supports et actions de communication</li>
+                    <li data-i18n="edu.block1.li1">Stratégie marketing et commerciale : analyse de marché, segmentation, ciblage, positionnement</li>
+                    <li data-i18n="edu.block1.li2">Pilotage de la performance : suivi des indicateurs commerciaux, tableaux de bord, KPI</li>
+                    <li data-i18n="edu.block1.li3">Gestion de projet : planification, coordination, respect des délais et des objectifs</li>
+                    <li data-i18n="edu.block1.li4">Relation client et négociation : compréhension des besoins, adaptation de l’offre, fidélisation</li>
+                    <li data-i18n="edu.block1.li5">Communication marketing : conception de messages, supports et actions de communication</li>
                 </ul>
             </div>
 
             <div class="content-block">
-                <h3>Sciences sociales & anthropologie</h3>
+                <h3 data-i18n="edu.block2.title">Sciences sociales & anthropologie</h3>
                 <ul class="check-list">
-                    <li>Capacité d’analyse approfondie des comportements individuels et collectifs</li>
-                    <li>Compétences en enquête de terrain, observation et analyse qualitative</li>
-                    <li>Forte capacité rédactionnelle et de synthèse</li>
-                    <li>Esprit critique utile à la prise de recul stratégique</li>
+                    <li data-i18n="edu.block2.li1">Capacité d’analyse approfondie des comportements individuels et collectifs</li>
+                    <li data-i18n="edu.block2.li2">Compétences en enquête de terrain, observation et analyse qualitative</li>
+                    <li data-i18n="edu.block2.li3">Forte capacité rédactionnelle et de synthèse</li>
+                    <li data-i18n="edu.block2.li4">Esprit critique utile à la prise de recul stratégique</li>
                 </ul>
-                <p>Atout majeur pour comprendre les comportements clients, les dynamiques d’équipe et les enjeux culturels et sociaux en entreprise.</p>
+                <p data-i18n="edu.block2.p1">Atout majeur pour comprendre les comportements clients, les dynamiques d’équipe et les enjeux culturels et sociaux en entreprise.</p>
             </div>
 
             <div class="timeline">
                 <div class="timeline-item">
-                    <h4>Master 2 Management, Marketing et Commercial</h4>
-                    <span>École de commerce Paris Com'Sup — Diplômé</span>
-                    <p>Stratégie marketing et commerciale : analyses de marché, segmentation pertinente, identification des cibles et définition du positionnement. Pilotage de la performance : gestion des indicateurs commerciaux via tableaux de bord et KPIs. Expérience en gestion de projet, relation client, négociation et communication marketing. Vision globale orientée résultats.</p>
+                    <h4 data-i18n="edu.timeline1.title">Master 2 Management, Marketing et Commercial</h4>
+                    <span data-i18n="edu.timeline1.meta">École de commerce Paris Com'Sup — Diplômé</span>
+                    <p data-i18n="edu.timeline1.p">Stratégie marketing et commerciale : analyses de marché, segmentation pertinente, identification des cibles et définition du positionnement. Pilotage de la performance : gestion des indicateurs commerciaux via tableaux de bord et KPIs. Expérience en gestion de projet, relation client, négociation et communication marketing. Vision globale orientée résultats.</p>
                 </div>
                 <div class="timeline-item">
-                    <h4>Master 2 Sciences Sociales - Parcours Anthropologie</h4>
-                    <span>Université Paris Nanterre & Paris 8 — Diplômé</span>
-                    <p>Socle analytique majeur : analyse des comportements individuels et collectifs, enquête de terrain, observation et analyse qualitative.</p>
+                    <h4 data-i18n="edu.timeline2.title">Master 2 Sciences Sociales - Parcours Anthropologie</h4>
+                    <span data-i18n="edu.timeline2.meta">Université Paris Nanterre & Paris 8 — Diplômé</span>
+                    <p data-i18n="edu.timeline2.p">Socle analytique majeur : analyse des comportements individuels et collectifs, enquête de terrain, observation et analyse qualitative.</p>
                 </div>
                 <div class="timeline-item">
-                    <h4>Licence Sciences Humaines et Sociales - Parcours Anthropologie</h4>
-                    <span>Université Paris Nanterre — Diplômé</span>
-                    <p>Formation en sciences humaines et sociales avec spécialisation en anthropologie.</p>
+                    <h4 data-i18n="edu.timeline3.title">Licence Sciences Humaines et Sociales - Parcours Anthropologie</h4>
+                    <span data-i18n="edu.timeline3.meta">Université Paris Nanterre — Diplômé</span>
+                    <p data-i18n="edu.timeline3.p">Formation en sciences humaines et sociales avec spécialisation en anthropologie.</p>
                 </div>
                 <div class="timeline-item">
-                    <h4>Licence Administration Économique et Sociale (AES)</h4>
-                    <span>Université Paris 8 — Diplômé</span>
-                    <p>Formation pluridisciplinaire combinant économie, droit, gestion et sciences sociales.</p>
+                    <h4 data-i18n="edu.timeline4.title">Licence Administration Économique et Sociale (AES)</h4>
+                    <span data-i18n="edu.timeline4.meta">Université Paris 8 — Diplômé</span>
+                    <p data-i18n="edu.timeline4.p">Formation pluridisciplinaire combinant économie, droit, gestion et sciences sociales.</p>
                 </div>
             </div>
         </div>
@@ -170,40 +176,40 @@
 
     <section id="experience" class="section alt">
         <div class="container">
-            <h2>Expérience professionnelle</h2>
+            <h2 data-i18n="exp.title">Expérience professionnelle</h2>
             <div class="experience-grid">
                 <div class="experience-card">
-                    <h3>Management et distribution</h3>
-                    <p>Adjoint Responsable de Magasin : posture managériale et pilotage opérationnel.</p>
+                    <h3 data-i18n="exp.card1.title">Management et distribution</h3>
+                    <p data-i18n="exp.card1.p">Adjoint Responsable de Magasin : posture managériale et pilotage opérationnel.</p>
                     <ul class="check-list">
-                        <li>Encadrement et coordination des équipes</li>
-                        <li>Gestion administrative (RH, caisse, casse, procédures)</li>
-                        <li>Pilotage des stocks et des flux</li>
-                        <li>Gestion des commandes fournisseurs et livraisons</li>
-                        <li>Optimisation de l’organisation et de la performance</li>
+                        <li data-i18n="exp.card1.li1">Encadrement et coordination des équipes</li>
+                        <li data-i18n="exp.card1.li2">Gestion administrative (RH, caisse, casse, procédures)</li>
+                        <li data-i18n="exp.card1.li3">Pilotage des stocks et des flux</li>
+                        <li data-i18n="exp.card1.li4">Gestion des commandes fournisseurs et livraisons</li>
+                        <li data-i18n="exp.card1.li5">Optimisation de l’organisation et de la performance</li>
                     </ul>
                 </div>
                 <div class="experience-card">
-                    <h3>Relation client et performance commerciale</h3>
-                    <p>Carrefour Market : maîtrise de la relation client et gestion de rayon.</p>
+                    <h3 data-i18n="exp.card2.title">Relation client et performance commerciale</h3>
+                    <p data-i18n="exp.card2.p">Carrefour Market : maîtrise de la relation client et gestion de rayon.</p>
                     <ul class="check-list">
-                        <li>Sens du service et du conseil client</li>
-                        <li>Mise en valeur des produits</li>
-                        <li>Participation aux commandes et stocks</li>
-                        <li>Compréhension de l’impact sur le chiffre d’affaires</li>
+                        <li data-i18n="exp.card2.li1">Sens du service et du conseil client</li>
+                        <li data-i18n="exp.card2.li2">Mise en valeur des produits</li>
+                        <li data-i18n="exp.card2.li3">Participation aux commandes et stocks</li>
+                        <li data-i18n="exp.card2.li4">Compréhension de l’impact sur le chiffre d’affaires</li>
                     </ul>
                 </div>
                 <div class="experience-card">
-                    <h3>Gestion de projet & évènementiel</h3>
-                    <p>Structuration et pilotage de projet : cahier des charges, coordination logistique et suivi.</p>
+                    <h3 data-i18n="exp.card3.title">Gestion de projet & évènementiel</h3>
+                    <p data-i18n="exp.card3.p">Structuration et pilotage de projet : cahier des charges, coordination logistique et suivi.</p>
                 </div>
                 <div class="experience-card">
-                    <h3>Communication & engagement associatif</h3>
+                    <h3 data-i18n="exp.card4.title">Communication & engagement associatif</h3>
                     <ul class="check-list">
-                        <li>Définition d’une stratégie de communication</li>
-                        <li>Création de supports et contenus</li>
-                        <li>Promotion de projets culturels</li>
-                        <li>Valorisation d’une application digitale</li>
+                        <li data-i18n="exp.card4.li1">Définition d’une stratégie de communication</li>
+                        <li data-i18n="exp.card4.li2">Création de supports et contenus</li>
+                        <li data-i18n="exp.card4.li3">Promotion de projets culturels</li>
+                        <li data-i18n="exp.card4.li4">Valorisation d’une application digitale</li>
                     </ul>
                 </div>
             </div>
@@ -212,25 +218,25 @@
 
     <section id="competences" class="section">
         <div class="container">
-            <h2>Compétences clés</h2>
+            <h2 data-i18n="skills.title">Compétences clés</h2>
             <div class="chip-grid">
-                <span>Management d’équipe & organisation</span>
-                <span>Stratégie commerciale et marketing</span>
-                <span>Analyse de données & études</span>
-                <span>Gestion de projet</span>
-                <span>Communication & outils digitaux</span>
+                <span data-i18n="skills.chip1">Management d’équipe & organisation</span>
+                <span data-i18n="skills.chip2">Stratégie commerciale et marketing</span>
+                <span data-i18n="skills.chip3">Analyse de données & études</span>
+                <span data-i18n="skills.chip4">Gestion de projet</span>
+                <span data-i18n="skills.chip5">Communication & outils digitaux</span>
             </div>
             <div class="two-column-list">
                 <div>
-                    <h3>Outils</h3>
-                    <p>Pack Office, Canva, analyse de données, WordPress (débutant), Suite Adobe (débutant)</p>
+                    <h3 data-i18n="skills.tools.title">Outils</h3>
+                    <p data-i18n="skills.tools.p">Pack Office, Canva, analyse de données, WordPress (débutant), Suite Adobe (débutant)</p>
                 </div>
                 <div>
-                    <h3>Langues</h3>
+                    <h3 data-i18n="skills.lang.title">Langues</h3>
                     <ul class="check-list">
-                        <li>Français : langue maternelle</li>
-                        <li>Anglais : B2</li>
-                        <li>Allemand : A2</li>
+                        <li data-i18n="skills.lang.li1">Français : langue maternelle</li>
+                        <li data-i18n="skills.lang.li2">Anglais : B2</li>
+                        <li data-i18n="skills.lang.li3">Allemand : A2</li>
                     </ul>
                 </div>
             </div>
@@ -239,7 +245,7 @@
 
     <section id="galerie" class="section alt">
         <div class="container">
-            <h2>Galerie</h2>
+            <h2 data-i18n="gallery.title">Galerie</h2>
             <div class="gallery-grid">
                 <img src="image/1.jpeg" alt="Galerie 1">
                 <img src="image/2.jpeg" alt="Galerie 2">
@@ -255,25 +261,25 @@
 
     <section id="contact" class="section">
         <div class="container">
-            <h2>Informations complémentaires</h2>
+            <h2 data-i18n="contact.title">Informations complémentaires</h2>
             <div class="contact-grid">
                 <div class="contact-card">
-                    <h3>Coordonnées</h3>
+                    <h3 data-i18n="contact.card1.title">Coordonnées</h3>
                     <p>📧 morosinayoko95@gmail.com</p>
                     <p>📞 06 44 77 72 07</p>
                     <p>📍 Saint-Denis</p>
                     <a class="btn btn-whatsapp" href="https://wa.me/33644777207" target="_blank" rel="noopener noreferrer">
-                        Contacter sur WhatsApp
+                        <span data-i18n="contact.card1.cta">Contacter sur WhatsApp</span>
                     </a>
                 </div>
                 <div class="contact-card">
-                    <h3>Disponibilité</h3>
-                    <p>CDI à partir d’octobre 2026</p>
-                    <p>🚗 Permis B</p>
-                    <p>Mobilité appréciée selon le poste</p>
+                    <h3 data-i18n="contact.card2.title">Disponibilité</h3>
+                    <p data-i18n="contact.card2.p1">CDI à partir d’octobre 2026</p>
+                    <p data-i18n="contact.card2.p2">🚗 Permis B</p>
+                    <p data-i18n="contact.card2.p3">Mobilité appréciée selon le poste</p>
                 </div>
                 <div class="contact-card">
-                    <h3>LinkedIn</h3>
+                    <h3 data-i18n="contact.card3.title">LinkedIn</h3>
                     <img class="qr-code" src="image/QR%20code%20linked%20.jpeg" alt="QR code LinkedIn">
                 </div>
             </div>
@@ -282,7 +288,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Sinayoko Moro — Portfolio professionnel</p>
+            <p data-i18n="footer.text">&copy; 2026 Sinayoko Moro — Portfolio professionnel</p>
         </div>
     </footer>
 
